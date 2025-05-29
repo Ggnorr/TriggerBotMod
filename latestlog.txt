@@ -1,0 +1,545 @@
+--------- Starting game with Launcher Debug!
+Info: Launcher version: gladiolus-20250128-32ff194-v3_openjdk
+Info: Architecture: arm64
+Info: Device model: Xiaomi 2311DRK48I
+Info: API version: 35
+Info: Selected Minecraft version: fabric-loader-0.16.14-1.19.4
+Info: Custom Java arguments: ""
+Info: Graphics device: ARM Mali-G615 MC6 (OpenGL ES 3)
+Added custom env: TMPDIR=/data/user/0/net.kdt.pojavlaunch.debug/cache
+Added custom env: AWTSTUB_WIDTH=2610
+Added custom env: FORCE_VSYNC=false
+Added custom env: POJAV_NATIVEDIR=/data/app/~~QjkZi0zL2ILSRck39XvThw==/net.kdt.pojavlaunch.debug-J0teyk1c3Azked2rt4QG9Q==/lib/arm64
+Added custom env: LIBGL_MIPMAP=3
+Added custom env: allow_higher_compat_version=true
+Added custom env: MESA_GLSL_CACHE_DIR=/data/user/0/net.kdt.pojavlaunch.debug/cache
+Added custom env: HOME=/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files
+Added custom env: PATH=/data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/bin:/product/bin:/apex/com.android.runtime/bin:/apex/com.android.art/bin:/system_ext/bin:/system/bin:/system/xbin:/odm/bin:/vendor/bin:/vendor/xbin
+Added custom env: LIBGL_NOINTOVLHACK=1
+Added custom env: force_glsl_extensions_warn=true
+Added custom env: LIBGL_NORMALIZE=1
+Added custom env: LD_LIBRARY_PATH=/data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/jli:/data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib:/system/lib64:/vendor/lib64:/vendor/lib64/hw:/data/app/~~QjkZi0zL2ILSRck39XvThw==/net.kdt.pojavlaunch.debug-J0teyk1c3Azked2rt4QG9Q==/lib/arm64
+Added custom env: LIBGL_NOERROR=1
+Added custom env: POJAV_RENDERER=opengles2
+Added custom env: LIBGL_ES=2
+Added custom env: VTEST_SOCKET_NAME=/data/user/0/net.kdt.pojavlaunch.debug/cache/.virgl_test
+Added custom env: MESA_LOADER_DRIVER_OVERRIDE=zink
+Added custom env: JAVA_HOME=/data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17
+Added custom env: allow_glsl_extension_directive_midshader=true
+Added custom env: AWTSTUB_HEIGHT=1220
+Initialising gl4es
+v1.1.5 built on Jul 14 2024 19:34:14
+Using GLES 2.0 backend
+loaded: libGLESv2.so
+loaded: libEGL.so
+Using GLES 2.0 backend
+Hardware Full NPOT detected and used
+FBO are in core, and so used
+PointSprite are in core, and so used
+CubeMap are in core, and so used
+BlendColor is in core, and so used
+Blend Subtract is in core, and so used
+Blend Function and Equation Separation is in core, and so used
+Texture Mirrored Repeat is in core, and so used
+Extension GL_OES_mapbuffer  detected
+Extension GL_OES_element_index_uint  detected and used
+Extension GL_OES_packed_depth_stencil  detected and used
+Extension GL_OES_depth24  detected and used
+Extension GL_OES_rgb8_rgba8  detected and used
+Extension GL_EXT_texture_format_BGRA8888  detected and used
+Extension GL_OES_depth_texture  detected and used
+Extension GL_OES_texture_stencil8  detected and used
+Extension GL_EXT_texture_rg  detected and used
+Extension GL_EXT_color_buffer_float  detected and used
+Extension GL_EXT_color_buffer_half_float  detected and used
+high precision float in fragment shader available and used
+Max vertex attrib: 32
+Extension GL_OES_standard_derivatives  detected and used
+Extension GL_ARM_shader_framebuffer_fetch detected and used
+Extension GL_OES_get_program_binary  detected and used
+Number of supported Program Binary Format: 1
+Max texture size: 32768
+Max Varying Vector: 31
+Texture Units: 16/16 (hardware: 16), Max lights: 8, Max planes: 6
+Extension GL_EXT_texture_filter_anisotropic  detected and used
+Max Anisotropic filtering: 16
+Hardware vendor is ARM
+GLSL 300 es supported
+GLSL 310 es supported and used
+GLSL 320 es supported
+Max Color Attachments: 8 / Draw buffers: 8
+sRGB surface supported
+EGLImage to Texture2D supported
+EGLImage to RenderBuffer supported
+ignore MipMap
+glGetError() always return GL_NOERROR
+Targeting OpenGL 2.1
+No hack in shader converter to define overloaded function with int
+Not trying to batch small subsequent glDrawXXXX
+try to use VBO
+glXMakeCurrent FBO workaround enabled
+FBO workaround for using binded texture enabled
+Force texture for Attachment color0 on FBO
+Hack to trigger a SwapBuffers when a Full Framebuffer Blit on default FBO is done
+Force normals to be normalized on FPE shaders
+glX Will try to recycle EGL Surface
+Current folder is:/
+--------- beginning of main
+D/jrelog  ( 4252): dlopen libgl4es_114.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjli.so success
+E/jrelog  ( 4252): dlopen libjvm.so failed: dlopen failed: library "libjvm.so" not found
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/server/libjvm.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libverify.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjava.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libnet.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libnio.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libawt.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/
+libawt_headless.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libfreetype.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libfontmanager.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libzip.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libsctp.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjawt.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libawt.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjimage.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libmanagement.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/librmi.so success
+
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libmanagement_agent.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/server/libjvm.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/server/libjsig.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/liblcms.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libmanagement_ext.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjsig.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libdt_socket.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libnet.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjli.so success
+D/jre
+log  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libfreetype.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libawt_headless.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjdwp.so success
+
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjavajpeg.so success
+
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libmlib_image.so success
+
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libinstrument.so success
+
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libfontmanager.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libverify.so success
+
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libj2pkcs11.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjaas.so success
+
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libextnet.so success
+
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libprefs.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libjava.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libnio.so success
+
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libj2gss.so success
+D/jrelog  ( 4252): dlopen /data/user/0/net.kdt.pojavlaunch.debug/runtimes/Internal-17/lib/libawt_xawt.so success
+
+D/jrelog  ( 4252): dlopen /data/app/~~QjkZi0zL2ILSRck39XvThw==/net.kdt.pojavlaunch.debug-J0teyk1c3Azked2rt4QG9Q==/lib/arm64/libopenal.so success
+
+D/jrelog  ( 4252): Done processing args
+D/jrelog  ( 4252): Found JLI lib
+D/jrelog  ( 4252): Calling JLI_Launch
+
+2025-05-29 13:09:38,729 main ERROR appender Console has no parameter that matches element Policies
+[13:09:38] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.16.14
+[13:09:38] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
+[13:09:39] [main/INFO]: Loading 58 mods:
+	- fabric-api 0.87.2+1.19.4
+	   |-- fabric-api-base 0.4.28+737a6ee8f4
+	   |-- fabric-api-lookup-api-v1 1.6.29+504944c8f4
+	   |-- fabric-biome-api-v1 13.0.10+6b242079f4
+	   |-- fabric-block-api-v1 1.0.8+e022e5d1f4
+	   |-- fabric-blockrenderlayer-v1 1.1.38+10ce000ff4
+	   |-- fabric-client-tags-api-v1 1.1.1+0eee1254f4
+	   |-- fabric-command-api-v1 1.2.31+f71b366ff4
+	   |-- fabric-command-api-v2 2.2.10+10ce000ff4
+	   |-- fabric-commands-v0 0.2.48+df3654b3f4
+	   |-- fabric-containers-v0 0.1.59+df3654b3f4
+	   |-- fabric-content-registries-v0 3.5.14+10ce000ff4
+	   |-- fabric-convention-tags-v1 1.5.3+6d727b51f4
+	   |-- fabric-crash-report-info-v1 0.2.17+aeb40ebef4
+	   |-- fabric-data-generation-api-v1 11.5.2+26f09d40f4
+	   |-- fabric-dimensions-v1 2.1.50+44c9c860f4
+	   |-- fabric-entity-events-v1 1.5.17+10ce000ff4
+	   |-- fabric-events-interaction-v0 0.6.1+4b6b93f0f4
+	   |-- fabric-events-lifecycle-v0 0.2.56+df3654b3f4
+	   |-- fabric-game-rule-api-v1 1.0.36+3f657af2f4
+	   |-- fabric-item-api-v1 2.1.21+10ce000ff4
+	   |-- fabric-item-group-api-v1 3.0.10+8400c67ef4
+	   |-- fabric-key-binding-api-v1 1.0.35+504944c8f4
+	   |-- fabric-keybindings-v0 0.2.33+df3654b3f4
+	   |-- fabric-lifecycle-events-v1 2.2.19+10ce000ff4
+	   |-- fabric-loot-api-v2 1.1.32+10ce000ff4
+	   |-- fabric-loot-tables-v1 1.1.36+9e7660c6f4
+	   |-- fabric-message-api-v1 5.1.5+53c11dadf4
+	   |-- fabric-mining-level-api-v1 2.1.44+10ce000ff4
+	   |-- fabric-model-loading-api-v1 1.0.2+3a1ea2f1f4
+	   |-- fabric-models-v0 0.4.1+a0255436f4
+	   |-- fabric-networking-api-v1 1.3.6+ae9c4c6af4
+	   |-- fabric-networking-v0 0.3.46+df3654b3f4
+	   |-- fabric-object-builder-api-v1 7.1.1+d63b52eaf4
+	   |-- fabric-particles-v1 1.1.1+86d48884f4
+	   |-- fabric-recipe-api-v1 1.0.13+10ce000ff4
+	   |-- fabric-registry-sync-v0 2.3.2+95ae8716f4
+	   |-- fabric-renderer-api-v1 2.4.2+90110d8df4
+	   |-- fabric-renderer-indigo 1.4.2+90110d8df4
+	   |-- fabric-renderer-registries-v1 3.2.42+df3654b3f4
+	   |-- fabric-rendering-data-attachment-v1 0.3.32+10ce000ff4
+	   |-- fabric-rendering-fluids-v1 3.0.25+10ce000ff4
+	   |-- fabric-rendering-v0 1.1.45+df3654b3f4
+	   |-- fabric-rendering-v1 2.1.5+10ce000ff4
+	   |-- fabric-resource-conditions-api-v1 2.3.3+10ce000ff4
+	   |-- fabric-resource-loader-v0 0.11.7+8400c67ef4
+	   |-- fabric-screen-api-v1 1.0.49+10ce000ff4
+	   |-- fabric-screen-handler-api-v1 1.3.25+10ce000ff4
+	   |-- fabric-sound-api-v1 1.0.11+10ce000ff4
+	   |-- fabric-transfer-api-v1 3.3.1+602c17c7f4
+	   \-- fabric-transitive-access-wideners-v1 3.3.0+1b5f819af4
+	- fabricloader 0.16.14
+	   \-- mixinextras 0.4.1
+	- happy 1.0.0
+	- java 17
+	- minecraft 1.19.4
+	- optifabric 1.13.24
+	   \-- mm 2.3
+[13:09:39] [main/WARN]: Found 1 non-fabric mod:
+	- OptiFine_1.19.4_HD_U_I4.jar
+[13:09:39] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[13:09:39] [main/INFO]: Compatibility level set to JAVA_16
+[13:09:39] [main/INFO]: Compatibility level set to JAVA_17
+Failed to setup optifine:
+java.lang.NoClassDefFoundError: net/fabricmc/tinyremapper/IMappingProvider
+	at knot//me.modmuss50.optifabric.mod.OptifabricSetup.run(OptifabricSetup.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at knot//com.chocohead.mm.Plugin.getMixins(Plugin.java:340)
+	at org.spongepowered.asm.mixin.transformer.PluginHandle.getMixins(PluginHandle.java:128)
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.postInitialise(MixinConfig.java:877)
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:568)
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462)
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438)
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:50)
+	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:124)
+	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399)
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:160)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+Caused by: java.lang.ClassNotFoundException: net.fabricmc.tinyremapper.IMappingProvider
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:226)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 25 more
+[13:09:41] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13:09:41] [main/WARN]: File not found or not readable: /proc/stat
+[13:09:48] [Datafixer Bootstrap/INFO]: 180 Datafixer optimizations took 230 milliseconds
+[13:09:50] [Render thread/INFO]: [STDERR]: [LWJGL] [ERROR] Incompatible Java and native library versions detected.
+Possible reasons:
+	a) -Djava.library.path is set to a folder containing shared libraries of an older LWJGL version.
+	b) The classpath contains jar files of an older LWJGL version.
+Possible solutions:
+	a) Make sure to not set -Djava.library.path (it is not needed for developing with LWJGL 3) or make
+	   sure the folder it points to contains the shared libraries of the correct LWJGL version.
+	b) Check the classpath and make sure to only have jar files of the same LWJGL version in it.
+[LWJGL] Failed to load a library. Possible solutions:
+	a) Add the directory that contains the shared library to -Djava.library.path or -Dorg.lwjgl.librarypath.
+	b) Add the JAR that contains the shared library to the classpath.
+[LWJGL] Enable debug mode with -Dorg.lwjgl.util.Debug=true for better diagnostics.
+[LWJGL] Enable the SharedLibraryLoader debug mode with -Dorg.lwjgl.util.DebugLoader=true for better diagnostics.
+[13:09:51] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:09:52] [Render thread/INFO]: Setting user: Happy_good
+[13:09:52] [Render thread/INFO]: Hello Fabric world!
+[13:09:52] [Render thread/INFO]: Definitely not up to no good
+[13:09:52] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[13:09:52] [Render thread/INFO]: [Indigo] Compatibility mode enabled.
+Registered forkAndExec
+[13:09:53] [Render thread/ERROR]: Error parsing option value off for option Fullscreen: Not a boolean: "off"
+[13:09:53] [Render thread/ERROR]: Error parsing option value  for option Text Background Opacity: Not a boolean: ""
+[13:09:53] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
+EGLBridge: Binding to OpenGL ES
+[13:09:53] [Render thread/INFO]: [STDERR]: [LWJGL] [ERROR] Incompatible Java and native library versions detected.
+Possible reasons:
+	a) -Djava.library.path is set to a folder containing shared libraries of an older LWJGL version.
+	b) The classpath contains jar files of an older LWJGL version.
+Possible solutions:
+	a) Make sure to not set -Djava.library.path (it is not needed for developing with LWJGL 3) or make
+	   sure the folder it points to contains the shared libraries of the correct LWJGL version.
+	b) Check the classpath and make sure to only have jar files of the same LWJGL version in it.
+[13:09:53] [Render thread/INFO]: [STDERR]: [LWJGL] [ERROR] Incompatible Java and native library versions detected.
+Possible reasons:
+	a) -Djava.library.path is set to a folder containing shared libraries of an older LWJGL version.
+	b) The classpath contains jar files of an older LWJGL version.
+Possible solutions:
+	a) Make sure to not set -Djava.library.path (it is not needed for developing with LWJGL 3) or make
+	   sure the folder it points to contains the shared libraries of the correct LWJGL version.
+	b) Check the classpath and make sure to only have jar files of the same LWJGL version in it.
+[13:09:54] [Render thread/INFO]: [STDERR]: [LWJGL] [ERROR] Incompatible Java and native library versions detected.
+Possible reasons:
+	a) -Djava.library.path is set to a folder containing shared libraries of an older LWJGL version.
+	b) The classpath contains jar files of an older LWJGL version.
+Possible solutions:
+	a) Make sure to not set -Djava.library.path (it is not needed for developing with LWJGL 3) or make
+	   sure the folder it points to contains the shared libraries of the correct LWJGL version.
+	b) Check the classpath and make sure to only have jar files of the same LWJGL version in it.
+[13:09:55] [Render thread/ERROR]: Error while loading the narrator
+com.mojang.text2speech.Narrator$InitializeException: Failed to load library flite
+	at com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:69) ~[text2speech-1.16.7.jar:?]
+	at com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.16.7.jar:?]
+	at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.16.7.jar:?]
+	at net.minecraft.class_333.<init>(class_333.java:17) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:647) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:198) ~[fabric-loader-0.16.14-1.19.4.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.14.jar:?]
+Caused by: java.lang.UnsatisfiedLinkError: Unable to load library 'flite':
+dlopen failed: library "libflite.so" not found
+dlopen failed: library "libflite.so" not found
+Native library (linux-aarch64/libflite.so) not found in resource path (/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/lwjgl3/lwjgl-glfw-classes.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/github/oshi/oshi-core/6.3.0/oshi-core-6.3.0.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/google/code/gson/gson/2.10/gson-2.10.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/mojang/authlib/3.18.38/authlib-3.18.38.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/mojang/datafixerupper/6.0.6/datafixerupper-6.0.6.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/mojang/logging/1.1.1/logging-1.1.1.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/mojang/text2speech/1.16.7/text2speech-1.16.7.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-transport-native-unix-common/4.1.82.Final/netty-transport-native-unix-common-4.1.82.Final.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/it/unimi/dsi/fastutil/8.5.9/fastutil-8.5.9.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/log4j-slf4j2-impl-2.19.0.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/slf4j/slf4j-api/2.0.1/slf4j-api-2.0.1.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/ow2/asm/asm/9.8/asm-9.8.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/net/fabricmc/intermediary/1.19.4/intermediary-1.19.4.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/net/fabricmc/fabric-loader/0.16.14/fabric-loader-0.16.14.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/fabric-loader-0.16.14-1.19.4/fabric-loader-0.16.14-1.19.4.jar)
+	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:323) ~[jna-5.13.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:483) ~[jna-5.13.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:425) ~[jna-5.13.0.jar:?]
+	at com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:67) ~[text2speech-1.16.7.jar:?]
+	... 8 more
+	Suppressed: java.lang.UnsatisfiedLinkError: dlopen failed: library "libflite.so" not found
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.13.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:211) ~[jna-5.13.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:483) ~[jna-5.13.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:425) ~[jna-5.13.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:67) ~[text2speech-1.16.7.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.16.7.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.16.7.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:17) ~[client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:647) ~[client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:198) ~[fabric-loader-0.16.14-1.19.4.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.14.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.14.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.14.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: dlopen failed: library "libflite.so" not found
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.13.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:224) ~[jna-5.13.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:483) ~[jna-5.13.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:425) ~[jna-5.13.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:67) ~[text2speech-1.16.7.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.16.7.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.16.7.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:17) ~[client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:647) ~[client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:198) ~[fabric-loader-0.16.14-1.19.4.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.14.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.14.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.14.jar:?]
+	Suppressed: java.io.IOException: Native library (linux-aarch64/libflite.so) not found in resource path (/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/lwjgl3/lwjgl-glfw-classes.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/github/oshi/oshi-core/6.3.0/oshi-core-6.3.0.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/google/code/gson/gson/2.10/gson-2.10.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/mojang/authlib/3.18.38/authlib-3.18.38.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/mojang/datafixerupper/6.0.6/datafixerupper-6.0.6.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/mojang/logging/1.1.1/logging-1.1.1.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/com/mojang/text2speech/1.16.7/text2speech-1.16.7.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-transport-native-unix-common/4.1.82.Final/netty-transport-native-unix-common-4.1.82.Final.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/it/unimi/dsi/fastutil/8.5.9/fastutil-8.5.9.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/log4j-slf4j2-impl-2.19.0.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/slf4j/slf4j-api/2.0.1/slf4j-api-2.0.1.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/ow2/asm/asm/9.8/asm-9.8.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/net/fabricmc/intermediary/1.19.4/intermediary-1.19.4.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/libraries/net/fabricmc/fabric-loader/0.16.14/fabric-loader-0.16.14.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/versions/fabric-loader-0.16.14-1.19.4/fabric-loader-0.16.14-1.19.4.jar)
+		at com.sun.jna.Native.extractFromResourcePath(Native.java:1145) ~[jna-5.13.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:295) ~[jna-5.13.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:483) ~[jna-5.13.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:425) ~[jna-5.13.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:67) ~[text2speech-1.16.7.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.16.7.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.16.7.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:17) ~[client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:647) ~[client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:198) ~[fabric-loader-0.16.14-1.19.4.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.14.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.14.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.14.jar:?]
+[13:09:55] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, happy, mm, optifabric)
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 2025-05-29 13:09:56
+Description: Initializing game
+
+java.lang.RuntimeException: Mixin transformation of me.modmuss50.optifabric.mod.Text failed
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:427)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at knot//net.minecraft.class_442.handler$zla006$optifabric$init(class_442.java:588)
+	at knot//net.minecraft.class_442.method_25426(class_442.java:156)
+	at knot//net.minecraft.class_437.method_25423(class_437.java:427)
+	at knot//net.minecraft.class_310.method_1507(class_310.java:1079)
+	at knot//net.minecraft.class_310.<init>(class_310.java:681)
+	at knot//net.minecraft.client.main.Main.main(Main.java:198)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422)
+	... 13 more
+Caused by: java.lang.NoClassDefFoundError: net/fabricmc/tinyremapper/IMappingProvider$Member
+	at knot//me.modmuss50.optifabric.util.RemappingUtils.mapMethod(RemappingUtils.java:35)
+	at knot//me.modmuss50.optifabric.mod.TextSetup.lambda$run$0(TextSetup.java:29)
+	at knot//com.chocohead.mm.Plugin.preApply(Plugin.java:378)
+	at org.spongepowered.asm.mixin.transformer.PluginHandle.preApply(PluginHandle.java:158)
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.preApply(MixinInfo.java:1362)
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.preApply(MixinTargetContext.java:1329)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:224)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418)
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+	... 16 more
+Caused by: java.lang.ClassNotFoundException: net.fabricmc.tinyremapper.IMappingProvider$Member
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:226)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 26 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:427)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at knot//net.minecraft.class_442.handler$zla006$optifabric$init(class_442.java:588)
+	at knot//net.minecraft.class_442.method_25426(class_442.java:156)
+	at knot//net.minecraft.class_437.method_25423(class_437.java:427)
+	at knot//net.minecraft.class_310.method_1507(class_310.java:1079)
+	at knot//net.minecraft.class_310.<init>(class_310.java:681)
+
+-- Initialization --
+Details:
+	Modules: 
+Stacktrace:
+	at knot//net.minecraft.client.main.Main.main(Main.java:198)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.4
+	Minecraft Version ID: 1.19.4
+	Operating System: Linux (aarch64) version Android-15
+	Java Version: 17.0.14-internal, N/A
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1316171824 bytes (1255 MiB) / 2147483648 bytes (2048 MiB) up to 2147483648 bytes (2048 MiB)
+	CPUs: 8
+	Processor Vendor: 0x41
+	Processor Name: 
+	Identifier: 0x41 Family 8 Model 0xd4d Stepping r1p1
+	Microarchitecture: unknown
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 11860.88
+	Virtual memory used (MB): 10253.72
+	Swap memory total (MB): 8192.00
+	Swap memory used (MB): 4108.75
+	JVM Flags: 4 total; -Xms2048M -Xmx2048M -XX:ActiveProcessorCount=8 -Xbootclasspath/a:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/caciocavallo17/cacio-shared-1.18-SNAPSHOT.jar:/storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/caciocavallo17/cacio-tta-1.18-SNAPSHOT.jar
+	Fabric Mods: 
+		fabric-api: Fabric API 0.87.2+1.19.4
+			fabric-api-base: Fabric API Base 0.4.28+737a6ee8f4
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.29+504944c8f4
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.10+6b242079f4
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.8+e022e5d1f4
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.38+10ce000ff4
+			fabric-client-tags-api-v1: Fabric Client Tags 1.1.1+0eee1254f4
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.31+f71b366ff4
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.10+10ce000ff4
+			fabric-commands-v0: Fabric Commands (v0) 0.2.48+df3654b3f4
+			fabric-containers-v0: Fabric Containers (v0) 0.1.59+df3654b3f4
+			fabric-content-registries-v0: Fabric Content Registries (v0) 3.5.14+10ce000ff4
+			fabric-convention-tags-v1: Fabric Convention Tags 1.5.3+6d727b51f4
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.17+aeb40ebef4
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 11.5.2+26f09d40f4
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.50+44c9c860f4
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.5.17+10ce000ff4
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.6.1+4b6b93f0f4
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.56+df3654b3f4
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.36+3f657af2f4
+			fabric-item-api-v1: Fabric Item API (v1) 2.1.21+10ce000ff4
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 3.0.10+8400c67ef4
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.35+504944c8f4
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.33+df3654b3f4
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.19+10ce000ff4
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.1.32+10ce000ff4
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.36+9e7660c6f4
+			fabric-message-api-v1: Fabric Message API (v1) 5.1.5+53c11dadf4
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.44+10ce000ff4
+			fabric-model-loading-api-v1: Fabric Model Loading API (v1) 1.0.2+3a1ea2f1f4
+			fabric-models-v0: Fabric Models (v0) 0.4.1+a0255436f4
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.3.6+ae9c4c6af4
+			fabric-networking-v0: Fabric Networking (v0) 0.3.46+df3654b3f4
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 7.1.1+d63b52eaf4
+			fabric-particles-v1: Fabric Particles (v1) 1.1.1+86d48884f4
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.13+10ce000ff4
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 2.3.2+95ae8716f4
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 2.4.2+90110d8df4
+			fabric-renderer-indigo: Fabric Renderer - Indigo 1.4.2+90110d8df4
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.42+df3654b3f4
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.32+10ce000ff4
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.25+10ce000ff4
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.45+df3654b3f4
+			fabric-rendering-v1: Fabric Rendering (v1) 2.1.5+10ce000ff4
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.3.3+10ce000ff4
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.11.7+8400c67ef4
+			fabric-screen-api-v1: Fabric Screen API (v1) 1.0.49+10ce000ff4
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.25+10ce000ff4
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.11+10ce000ff4
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 3.3.1+602c17c7f4
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 3.3.0+1b5f819af4
+		fabricloader: Fabric Loader 0.16.14
+			mixinextras: MixinExtras 0.4.1
+		happy: Happy 1.0.0
+		java: OpenJDK 64-Bit Server VM 17
+		minecraft: Minecraft 1.19.4
+		optifabric: OptiFabric 1.13.24
+			mm: Manningham Mills 2.3
+	Launched Version: 1.19.4
+	Backend library: LWJGL version 3.3.3-snapshot
+	Backend API: Mali-G615 MC6 GL version 2.1 gl4es wrapper 1.1.5, PojavLauncherTeam & ptitSeb
+	Window size: <not initialized>
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: <disabled>
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Type: Client (map_client.txt)
+	CPU: 8x 
+
+-- OptiFabric --
+Details:
+	OptiFine jar designed for: ~~NULL~~
+	OptiFine jar version: ~~NULL~~
+	OptiFine jar status: Error whilst searching
+	OptiFine remapped jar: ~~NULL~~
+	OptiFabric error: Failed to load OptiFine, please report this!
+
+net/fabricmc/tinyremapper/IMappingProvider
+#@!@# Game crashed! Crash report saved to: #@!@# /storage/emulated/0/Android/data/net.kdt.pojavlaunch.debug/files/.minecraft/crash-reports/crash-2025-05-29_13.09.56-client.txt
